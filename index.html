@@ -134,7 +134,7 @@
                 </ul>
             </div>
         </nav>
-        <!-- Hero -->
+        <!-- *Hero -->
         <header class="bg-hero pt-20 pb-14">
             <div
                 class="max-w-screen-2xl mx-auto flex text-heading items-center"
@@ -156,7 +156,7 @@
                         <i class="fa fa-caret-square-o-down"></i
                     ></a>
                 </div>
-                <div>
+                <div class="relative">
                     <svg
                         width="519px"
                         height="587px"
@@ -216,6 +216,96 @@
                             </g>
                         </g>
                     </svg>
+                    <div
+                        class="card absolute mx-20 w-4/5 ml-10 top-28 left-2 grid grid-cols-1 gap-4 bg-white"
+                    >
+                        <div
+                            id="card-header"
+                            class="bg-bgCta mb-3 h-16 font-inter font-semibold text-xl flex justify-center items-center"
+                        >
+                            <p>Dhing Today</p>
+                        </div>
+                        <!--fields-->
+                        <div class="px-7 font-inter">
+                            <label class="block mb-6">
+                                <span class="sr-only"
+                                    >Select if you want to buy or sell</span
+                                >
+                                <select
+                                    name=""
+                                    id=""
+                                    class="w-full border border-bordered text-gray-500"
+                                >
+                                    <option value="" hidden>
+                                        Select if you want to buy or sell
+                                    </option>
+                                    <option value="">Buy</option>
+                                    <option value="">Sell</option>
+                                </select>
+                            </label>
+
+                            <label class="block mb-6">
+                                <span class="sr-only">Amount</span>
+                                <div class="flex">
+                                    <div
+                                        class="w-11 border text-center pt-2 text-md border-bordered text-gray-700 font-medium"
+                                    >
+                                        ₦
+                                    </div>
+                                    <input
+                                        type="text"
+                                        class="w-full border border-bordered border-l-0 text-gray-500"
+                                        placeholder="Amount"
+                                    />
+                                </div>
+                            </label>
+
+                            <label class="block mb-6">
+                                <span class="sr-only"
+                                    >Your Email ID or phone number</span
+                                >
+                                <div class="flex">
+                                    <div
+                                        class="w-11 border text-center pt-4 text-xxs border-bordered text-gray-700 font-medium"
+                                    >
+                                        +234
+                                    </div>
+                                    <input
+                                        type="text"
+                                        class="w-full border border-bordered border-l-0 text-gray-500"
+                                        placeholder="Your Email ID or phone number"
+                                    />
+                                </div>
+                            </label>
+
+                            <label class="block mb-6">
+                                <span class="sr-only"
+                                    >Enter seller’s email or phone number
+                                </span>
+                                <div class="flex">
+                                    <div
+                                        class="w-11 border text-center pt-3.5 text-md border-bordered text-gray-700 font-medium"
+                                    >
+                                        <i class="fa fa-envelope-o"></i>
+                                    </div>
+                                    <input
+                                        type="text"
+                                        class="w-full border border-bordered border-l-0 text-gray-500"
+                                        placeholder="Enter seller’s email or phone number "
+                                    />
+                                </div>
+                            </label>
+
+                            <div class="block mb-6">
+                                <button
+                                    class="bg-gray-900 w-full py-3.5 text-white font-semibold text-lg"
+                                    type="submit"
+                                >
+                                    DHING
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div
@@ -536,7 +626,7 @@
                     class="grid grid-cols-5 mb-72 max-w-screen-2xl mx-auto bg-white rounded-xl px-20 py-44"
                 >
                     <div class="col-span-3 pt-16">
-                        <h3 class="subHead-2 mb-20">
+                        <h3 class="subHead-2">
                             Don’t lose money for trusting people
                         </h3>
                         <h2
@@ -640,7 +730,7 @@
                                         <div class="pr-4">Speedy delivery</div>
                                         <progress
                                             id="file"
-                                            value="75"
+                                            value="83"
                                             max="100"
                                         >
                                             75%
@@ -652,7 +742,7 @@
                                         <div class="pr-4">Reliability</div>
                                         <progress
                                             id="file"
-                                            value="75"
+                                            value="92"
                                             max="100"
                                         >
                                             75%
@@ -664,7 +754,7 @@
                                         <div class="pr-4">Trust worthy</div>
                                         <progress
                                             id="file"
-                                            value="75"
+                                            value="88"
                                             max="100"
                                         >
                                             75%
@@ -688,12 +778,12 @@
                     </div>
                 </div>
 
-                <div class="max-w-4xl mx-auto text-center">
-                    <h3>Safe For Corporates</h3>
-                    <h2 class="flagpost">
+                <div class="w-auto mx-auto text-center pb-80">
+                    <h3 class="subHead-2">Safe For Corporates</h3>
+                    <h2 class="flagpost max-w-4xl mx-auto xl">
                         Because Great Business Relationship Are Built On Trust
                     </h2>
-                    <p>
+                    <p class="subHead max-w-5xl mx-auto">
                         Experience the valuable opportunity of doing business
                         with trusted people. Dhing.me affords you the ability of
                         rating and reviewing people and vice versa (buyer &
@@ -701,7 +791,11 @@
                         the chance of getting more customers as a seller when
                         you climb up top the ladder of our grading system.
                     </p>
-                    <a href="#">SIGN UP TODAY</a>
+                    <a
+                        href="#"
+                        class="leading-tight px-20 py-3 border border-deepBlack text-heading font-bold"
+                        >SIGN UP TODAY</a
+                    >
                 </div>
             </section>
         </main>
