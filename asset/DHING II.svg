@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="164px" height="36px" viewBox="0 0 164 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7E0DFE2B-2D15-413C-8F0B-51EB1D138F04</title>
+    <g id="WEB/MOBILE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_II" transform="translate(-323.000000, -11427.000000)" fill-rule="nonzero">
+            <g id="Light-Footer" transform="translate(0.000000, 10980.000000)">
+                <g id="DHING-II" transform="translate(323.000000, 447.000000)">
+                    <text id="ME" fill="#231F20" font-family="Montserrat-Black, Montserrat" font-size="28.496" font-weight="800">
+                        <tspan x="116.664" y="28.648">ME</tspan>
+                    </text>
+                    <path d="M111.04,19.904 L108.872,23.904 L111.04,27.904 L111.12,27.904 C112.128309,27.5330387 112.995419,26.8561333 113.6,25.968 C114.229773,25.094972 114.565939,24.0444558 114.56,22.968 L114.56,20.904 L111.04,19.904 Z" id="Path" fill="#D2D2D1"></path>
+                    <path d="M107.536,20.904 L107.536,22.968 C107.530061,24.0444558 107.866227,25.094972 108.496,25.968 C109.108492,26.8238075 109.968381,27.4715159 110.96,27.824 L111.04,27.824 L111.04,19.904 L107.536,20.904 Z" id="Path" fill="#D2D2D1"></path>
+                    <path d="M113.6,23.296 C113.6,23.192 113.6,23.08 113.6,22.968 L113.6,21.6 L111.024,20.864 L109.32,23.264 L113.6,23.296 Z" id="Path" fill="#2B2B2B"></path>
+                    <path d="M111.04,20.872 L108.464,21.608 L108.464,22.968 C108.464,23.08 108.464,23.192 108.464,23.296 L111.024,23.296 L111.04,20.872 Z" id="Path" fill="#231F20"></path>
+                    <path d="M111.04,22.568 L109.488,24.712 L111.04,26.856 L111.136,26.816 C111.803203,26.5060517 112.377088,26.0259746 112.8,25.424 C113.261733,24.8041526 113.539041,24.0665145 113.6,23.296 L111.04,22.568 Z" id="Path" fill="#2B2B2B"></path>
+                    <path d="M108.48,23.296 C108.540959,24.0665145 108.818267,24.8041526 109.28,25.424 C109.709524,26.0292438 110.292032,26.5096056 110.968,26.816 L111.064,26.856 L111.064,22.568 L108.48,23.296 Z" id="Path" fill="#231F20"></path>
+                    <rect id="Rectangle" fill="#231F20" x="0" y="3.2" width="103.672" height="27.984"></rect>
+                    <text id="DHING" fill="#FFFFFF" font-family="Montserrat-Black, Montserrat" font-size="26.4" font-weight="800">
+                        <tspan x="5.272" y="26.56">DHING</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
