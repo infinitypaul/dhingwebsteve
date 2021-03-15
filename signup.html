@@ -11,8 +11,9 @@
 <body class="antialiased bg-bgBlwd px-6 lg:px-0">
     <div class="lg:w-9/12 xl:w-7/12 2xl:w-3/5 mx-auto">
         <nav class="w-full">
-            <div class="my-12">
+            <div class="my-12 relative">
                 <object data="./asset/DHING II.svg" type="image/svg+xml" class="w-28 mx-auto"></object>
+                <a href="/public/index.html" class="w-full h-full top-0 inline-block z-30 cursor-pointer absolute"></a>
             </div>
         </nav>
         <main>
@@ -38,7 +39,7 @@
                         </button>
                     </div>
                     <div>
-                        <form class="font-inter">
+                        <form class="font-inter" method="GET" action="signup_success.html">
                             <label class="block mb-5 lg:mb-4 xl:mb-2 2xl:mb-6 mail-in">
                                 <p class="mb-1">Email</p>
                                 <div class="flex">
@@ -93,7 +94,8 @@
                                 </button>
                             </div>
 
-                            <a href="#" class="text-center mx-auto block text-sm text-link py-4">Take me to the login
+                            <a href="login.html" class="text-center mx-auto block text-sm text-link py-4">Take me to the
+                                login
                                 page
                             </a>
 

@@ -11,8 +11,9 @@
 <body class="antialiased bg-bgBlwd px-6 lg:px-0">
     <div class="lg:w-9/12 xl:w-7/12 2xl:w-3/5 mx-auto">
         <nav class="w-full">
-            <div class="my-12">
+            <div class="my-12 relative">
                 <object data="./asset/DHING II.svg" type="image/svg+xml" class="w-28 mx-auto"></object>
+                <a href="/public/index.html" class="w-full h-full top-0 inline-block z-30 cursor-pointer absolute"></a>
             </div>
         </nav>
         <main>
@@ -31,12 +32,15 @@
                         Dhing.Me
                         account, kindly use the button below to proceed</small>
                     <div>
-                        <div class="mb-8 mt-4 font-inter">
-                            <button class="bg-deepBlack w-full py-2 font-medium text-white text-sm hover:bg-yellow-600"
-                                type="submit">
-                                PROCEED TO HOME
-                            </button>
-                        </div>
+                        <form action="index.html" method="get">
+                            <div class="mb-8 mt-4 font-inter">
+                                <button
+                                    class="bg-deepBlack w-full py-2 font-medium text-white text-sm hover:bg-yellow-600"
+                                    type="submit">
+                                    PROCEED TO HOME
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
