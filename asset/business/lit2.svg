@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="508px" viewBox="0 0 500 508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B8E05676-6DA1-4783-A4F9-053748F17AE0</title>
+    <defs>
+        <polygon id="path-1" points="0.531400666 0.79461 466.170261 0.79461 466.170261 506.655 0.531400666 506.655"></polygon>
+    </defs>
+    <g id="WEB/MOBILE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_Business" transform="translate(-1111.000000, -734.000000)">
+            <g id="Group-14" transform="translate(1112.000000, 734.000000)">
+                <g id="Group-3" transform="translate(15.592500, 0.217890)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M40.1055705,447.180264 C-46.2262545,358.156607 5.075298,0.8226765 229.747631,0.7935165 C436.892981,0.7680015 468.238158,231.281446 466.069383,277.308684 C462.810753,346.450689 412.092401,464.685377 295.390436,495.319779 C178.690293,525.954182 80.9514405,489.298239 40.1055705,447.180264" id="Fill-1" fill="#FEF0BF" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M12.371049,146.792453 C-15.8430735,215.814173 -2.2180635,336.43269 126.155192,422.500253 C254.526624,508.567815 400.102457,456.714045 454.378329,394.783673 C509.343107,332.07327 546.281537,168.673388 344.971832,79.6880025 C143.660304,-9.2973825 44.465274,68.273685 12.371049,146.792453 Z" id="Stroke-4" stroke="#1F1F1F" stroke-width="1.215"></path>
+            </g>
+        </g>
+    </g>
+</svg>
