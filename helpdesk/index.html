@@ -1,0 +1,258 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To Dhing</title>
+    <link rel="stylesheet" href="../css/tailwind.css" />
+    <link rel="stylesheet" href="../css/mansory.css">
+</head>
+
+<body class="antialiased">
+    <!-- *Navigation -->
+    <nav
+        class="grid mx-auto gap-y-5 lg:grid-cols-12 relative bg-deepBlack lg:bg-transparent py-5 lg:py-0 px-4 lg:px-14 lg:h-auto text-gray-50 text-sm items-center font-inter antialiased content-start z-10">
+        <div id="mobile-menu" class="text-white absolute right-8 top-6 text-xl lg:hidden z-40">
+            <a href="#" class="">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="hidden">
+                <i class="far fa-times-circle" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div id="" class="lg:col-span-2 xl:col-span-2 relative">
+            <object data="../asset/DHING.svg" type="image/svg+xml" class="lg:w-2/3 xl:w-auto">
+            </object>
+            <a href="/public/index.html" class="h-full top-0 w-full z-20 cursor-pointer absolute">
+
+            </a>
+        </div>
+
+        <div id="firstMenu" class="hidden lg:flex justify-between menu-items w-auto lg:col-span-10 lg:justify-self-end">
+            <ul class="lg:flex 3xl:text-base">
+                <li><a href="/public/contact.html">Contact Us</a></li>
+                <li><a href="/public/login.html">Sign In</a></li>
+            </ul>
+        </div>
+
+        <div class="hidden  lg:inline-block lg:col-span-3 xl:col-span-4 2xl:col-span-2 menu-icons"></div>
+
+    </nav>
+    <!-- *Hero -->
+    <header class="bg-deepBlack -mt-20 py-32 bg-cover bg-center px-9 lg:px-0"
+        style="background-image: url(../asset/discover/bg-repeat.png);">
+        <div class="mx-auto lg:w-10/12 xl:w-8/12 2xl:w-8/12 3xl:w-8/12 lg:items-center xl:justify-end">
+            <div class="text-white text-center">
+                <h1
+                    class=" mx-auto text-xl lg:text-3xl 2xl:text-5lg 2xl:leading-snug font-playfair font-bold mb-5 lg:mb-7 w-7/12">
+                    <span class="block lg:inline-block">Hi There,</span><span> How Can We Help?</span>
+                </h1>
+                <div class="lg:w-7/12 mx-auto">
+                    <ul class="flex items-center text-gray-400 pl-4 text-sm border border-gray-200 bg-gray-50 mb-6">
+                        <li>
+                            <i class="fa fa-search font-thin" aria-hidden="true"></i>
+                        </li>
+                        <li class="flex-auto lg:border-r lg:border-gray-200">
+                            <input type="text" name="search_text" id="search_text"
+                                placeholder="What would you like to ask"
+                                class="w-full input-search border-0 py-2 font-inter focus:ring-0 bg-transparent text-sm text-deepBlack" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- *Main Content -->
+    <main class="antialiased mb-24">
+        <!-- full filter -->
+        <div class="border-b border-gray-200 lg:mb-20">
+            <section class="mx-auto lg:w-10/12 xl:w-8/12 2xl:w-8/12 3xl:w-8/12 px-4 lg:px-0 my-3 relative">
+
+                <!-- menu links -->
+                <div
+                    class="linter flex flex-nowrap overflow-x-auto space-x-4 text-sm 2xl:text-base h-14 justify-between items-center">
+                    <button id="general"
+                        class="cursor-pointer p-2 h-auto w-1/4 lg:w-auto flex-none lg:flex-auto focused-tab relative text-left">
+                        General
+                        <i class=" fas fa-circle absolute -bottom-1 left-1/3 lg:left-8 text-xxs pointer
+                        animate-pulse"></i></button>
+                    <button id="started" class="cursor-pointer p-2 h-auto lg:w-auto flex-none lg:flex-auto relative">
+                        Get Started
+                        <i class="fas fa-circle absolute -bottom-1 right-1/2 text-xxs pointer invisible
+                        animate-pulse"></i>
+                    </button>
+                    <button id="pricing" class="cursor-pointer p-2 h-auto lg:w-auto flex-none lg:flex-auto relative">
+                        Pricing
+                        <i class="fas fa-circle absolute -bottom-1 right-1/2 text-xxs pointer invisible
+                        animate-pulse"></i>
+                    </button>
+                    <button id="account"
+                        class="cursor-pointer p-2 h-auto lg:w-auto flex-none lg:flex-auto relative text-right">
+                        Account Management
+                        <i class="fas fa-circle absolute -bottom-1 right-1/3 text-xxs pointer invisible
+                        animate-pulse"></i>
+                    </button>
+
+                </div>
+                <!-- menu links end -->
+            </section>
+        </div>
+        <!-- full filter end -->
+
+        <!-- result -->
+        <section
+            class="mx-auto lg:w-10/12 xl:w-8/12 2xl:w-8/12 3xl:w-8/12 px-4 lg:px-0 my-3 mt-10 font-inter antialiased">
+            <div class="tab-elements">
+                <div class="tabber general lg:flex lg:space-x-10">
+                    <div class="lg:w-2/6">
+                        <h3 class="font-bold text-base mb-4">Articles in this section</h3>
+                        <ul class="side-menu text-sm pb-3 border-b border-gray-200 lg:border-0">
+                            <li><a href="#">Guide: Sign Up To Dhing.me</a></li>
+                            <li><a href="#">Guide: Intro to Dhing.Me</a></li>
+                            <li><a href="#">Guide: Create a Dhing.Me Account</a></li>
+                            <li><a href="#">Guide: Intro to Dhing.Me</a></li>
+                            <li><a href="#">Guide: Create a Dhing.Me account</a></li>
+                            <li><a href="#">Guide: Intro to Dhing.Me</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-8 lg:mt-0">
+                        <div class="title mb-10">
+                            <h3 class="font-bold text-lg mb-1">Guide: Sign Up To Dhing.Me</h3>
+                            <small class="text-gray-400">Updated 4 weeks ago</small>
+                        </div>
+                        <img src="/public/asset/welcome.png" alt="" class="object-cover mb-10">
+
+                        <div class="content mb-16">
+                            <p class="font-bold text-sm mb-5">Signing Up To Dhing.Me</p>
+                            <p class="mb-10 text-sm text-gray-600">When signing up for Behance, you’ll need an Adobe ID
+                                to
+                                create a
+                                profile. You
+                                can create an Adobe ID and sign up for
+                                Behance by:</p>
+                            <ol class="list-decimal px-4 text-sm text-gray-600">
+                                <li>Navigating to Behance.net</li>
+                                <li>Click Sign Up With Email or select the Social Network login option (Apple, Facebook,
+                                    Google) to create your Adobe ID
+                                </li>
+                                <li>You’ll be asked to fill out a few fields - including your name, email address, and
+                                    other
+                                    basic information.
+                                </li>
+                                <li>Follow some of our Curated Galleries to start building up your For You Feed with
+                                    great
+                                    work.</li>
+                            </ol>
+                        </div>
+                        <div class="socials text-gray-600 pb-5 border-b border-gray-200">
+                            <i class="fa fa-linkedin rounded-full border-gray-300 border-2 p-2 mr-3"
+                                aria-hidden="true"></i>
+                            <i class="fa fa-twitter rounded-full border-gray-300 border-2 p-2 mr-3"
+                                aria-hidden="true"></i>
+                            <i class="fa fa-facebook rounded-full border-gray-300 border-2 py-2 px-3"
+                                aria-hidden="true"></i>
+                        </div>
+
+                        <div class="my-14 bg-gray-100 mx-auto py-5 text-center font-semibold">
+                            <i class="fa fa-check rounded-full border-green-400 text-green-400 border-2 p-2 mr-3"
+                                aria-hidden="true"></i> Thanks for your feedback
+                        </div>
+
+                        <div
+                            class="related mx-auto py-20 grid grid-col-1 lg:grid-cols-2 gap-x-5 gap-y-10 border-t border-gray-200">
+                            <div class="lg:justify-self-start">
+                                <h4 class=" font-inter text-base font-semibold leading-6 pb-4">Why Dhing.Me</h4>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Intro to Dhing.Me</a></div>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Create a Dhing.Me Account</a>
+                                </div>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Intro to Dhing.Me</a></div>
+                            </div>
+                            <div class="lg:justify-self-start">
+                                <h4 class=" font-inter text-base font-semibold leading-6 pb-4">Recently viewed articles
+                                </h4>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Intro to Dhing.Me</a></div>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Create a Dhing.Me Account</a>
+                                </div>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Intro to Dhing.Me</a></div>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Intro to Dhing.Me</a></div>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Create a Dhing.Me Account</a>
+                                </div>
+                                <div class="py-4 text-sm text-gray-600"><a href="#">Guide: Intro to Dhing.Me</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabber started hidden lg:space-x-10">
+                    <div class="lg:w-2/6">
+                        <h3 class="font-bold text-base mb-4">Articles in this section</h3>
+                        <ul class="side-menu text-sm pb-3 border-b border-gray-200 lg:border-0">
+                            <li><a href="#">Guide: Setting Up Your Account</a></li>
+                            <li><a href="#">Guide: Becoming a Dhing Agent</a></li>
+                            <li><a href="#">Guide: Create a Dhing.Me Account</a></li>
+                            <li><a href="#">Guide: Intro to Dhing.Me</a></li>
+                            <li><a href="#">Guide: Create a Dhing.Me account</a></li>
+                            <li><a href="#">Guide: Intro to Dhing.Me</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-8 lg:mt-0 border-b border-gray-200">
+                        <div class="title mb-10">
+                            <h3 class="font-bold text-lg mb-1">Guide: Setting Up Your Account</h3>
+                            <small class="text-gray-400">Updated 4 weeks ago</small>
+                        </div>
+                        <img src="/public/asset/welcome.png" alt="" class="object-cover mb-10">
+
+                        <div class="content mb-16">
+                            <p class="font-bold text-sm mb-5">Signing Up To Dhing.Me</p>
+                            <p class="mb-10 text-sm text-gray-600">When signing up for Behance, you’ll need an Adobe ID
+                                to
+                                create a
+                                profile. You
+                                can create an Adobe ID and sign up for
+                                Behance by:</p>
+                            <ol class="list-decimal px-4 text-sm text-gray-600">
+                                <li>Navigating to Behance.net</li>
+                                <li>Click Sign Up With Email or select the Social Network login option (Apple, Facebook,
+                                    Google) to create your Adobe ID
+                                </li>
+                                <li>You’ll be asked to fill out a few fields - including your name, email address, and
+                                    other
+                                    basic information.
+                                </li>
+                                <li>Follow some of our Curated Galleries to start building up your For You Feed with
+                                    great
+                                    work.</li>
+                            </ol>
+                        </div>
+                        <div class="socials text-gray-600 mb-3">
+                            <i class="fa fa-linkedin rounded-full border-gray-300 border-2 p-2 mr-3"
+                                aria-hidden="true"></i>
+                            <i class="fa fa-twitter rounded-full border-gray-300 border-2 p-2 mr-3"
+                                aria-hidden="true"></i>
+                            <i class="fa fa-facebook rounded-full border-gray-300 border-2 py-2 px-3"
+                                aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabber pricing hidden lg:space-x-10">ihskuxk8esn</div>
+            </div>
+        </section>
+        <!-- result end -->
+    </main>
+
+    <!-- *Footer -->
+    <footer class="border-t border-gray-200">
+        <div class="px-6 lg:px-0 lg:w-9/12 xl:w-7/12 2xl:w-3/5 mx-auto py-6 text-gray-500 text-sm">
+            <div class="flex justify-center items-center">
+                <p>Copyright 2010 - 2021 Dhing.Me</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/f9af5bdd87.js" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/tab.js"></script>
+    <script>forBigTabs()</script>
+</body>
+
+</html>
